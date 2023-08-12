@@ -1,0 +1,15 @@
+./clone.sh /vmfs/volumes/datastore AltLinux /vmfs/volumes/datastore 1
+./clone.sh /vmfs/volumes/datastore /vmfs/volumes/datastore 2
+chmod
+rm -r
+sh -x
+./clone.sh /vmfs/volumes/datastore altlinux /vmfs/volumes/datastore 2
+
+./clone.sh /vmfs/volumes/datastore Windows2019 /vmfs/volumes/datastore 2
+
+
+
+./clone.sh /vmfs/volumes/datastore Windows10-1 /vmfs/volumes/datastore 2
+
+
+./clone.sh /vmfs/volumes/datastore WinServ19-1 /vmfs/volumes/datastore 2
